@@ -7,6 +7,9 @@
     android:padding="8dp"
     tools:context=".MainActivity">
 
+    <!-- centerCrop: Scale the image uniformly (maintain the image's aspect ratio) -->
+    <!-- so that both dimensions (width and height) of the image will be equal to or larger than the corresponding dimension of the view (minus padding). -->
+
     <ImageView
         android:id="@+id/ivSimpleImageView"
         android:layout_width="match_parent"
