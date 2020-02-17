@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Get reference to the ImageView
-        ivSimpleImageView = (ImageView) findViewById(R.id.ivSimpleImageView);
+        ivSimpleImageView = findViewById(R.id.ivSimpleImageView);
     }
 }
