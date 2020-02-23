@@ -7,7 +7,9 @@
     android:padding="8dp"
     tools:context=".MainActivity">
 
-    <!-- centerCrop: Scale the image uniformly (maintain the image's aspect ratio) so that both dimensions (width and height)
+    <!-- How do I prepare images for all the Android resolutions?: Android Asset Studio
+    Overview: Android image scale types: https://thoughtbot.com/blog/android-imageview-scaletype-a-visual-guide
+    centerCrop: Scale the image uniformly (maintain the image's aspect ratio) so that both dimensions (width and height)
     of the image will be equal to or larger than the corresponding dimension of the view (minus padding).
     -->
 
