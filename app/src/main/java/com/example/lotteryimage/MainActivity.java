@@ -7,10 +7,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-    /* What is a high resolution image?
+    /* Resource Manager for drawables: https://developer.android.com/studio/write/resource-manager
+    Basic knowledge about resolution and support different pixel densities: https://developer.android.com/training/multiscreen/screendensities
+    What is a high resolution image?
     A high-resolution image is anything that has at least 300 dpi high resolution with a larger pixel dimension,
     for example, 5000 x 4000 pixels.
-     */
+    */
 
     // GUI control
     private ImageView ivSimpleImageView;
