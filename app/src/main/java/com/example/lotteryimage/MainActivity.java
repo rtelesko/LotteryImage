@@ -22,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         // Get reference to the ImageView
+        // ivSimpleImageView = findViewById(R.id.ivSimpleImageView);
+        // We can also set an image resource programmatically into the ImageView by using the setImageResource() method
         ivSimpleImageView = findViewById(R.id.ivSimpleImageView);
+        ivSimpleImageView.setImageResource(R.drawable.lottery);
+        // setContentDescription() allows you to associate a textual description to the view.
+        // The docs state that it's primarily used to support accessibility
+        ivSimpleImageView.setContentDescription("A lottery picture");
     }
 }
